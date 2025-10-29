@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(50deg, #d6adc4, #d3a3f3);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card {
+  background: #c20f7e
+  padding: 2rem;
+  margin: 1rem;
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+  justify-content: center;
+  min-height: 150vh;
+}
+
+}
+
+.card:hover
+ {
+  transform: scale(1.05);
+  box-shadow: 0 12px 15px rgba(185, 145, 234, 0.2);
+}
+
+.profile-pic
+ {
+  width: 100px;
+  height: 100px;
+  background: url('https://cdn-icons-png.flaticon.com/512/1946/1946429.png') center/cover no-repeat;
+  border-radius: 150%;
+  margin: 0 auto 1rem;
+  border: 3px solid #94b3c6;
+}
+
+  font-size: 1.6rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 3dvh;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 0.rem;
+  color: #444;
+  margin-bottom: 1dvh;
+  padding:  0 1rem;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  background: hsl(252, 19%, 90%);
+  color: #170404;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.links a:hover {
+  background: #4c94e6;
+}
